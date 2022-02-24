@@ -4,9 +4,9 @@ body {
 }
 
 img {
-  width: 11%; 
-  height: 11%; 
-  display: inline-flex;
+  width: 80px; 
+  height: 80px; 
+  display: inline-block;
   float: right;
   margin: 0px 5px 20px 0px;
 }
