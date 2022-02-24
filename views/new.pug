@@ -3,10 +3,10 @@ form.form-inline(action="/post", method="POST")
     .input-group.mb-2.mr-sm-2
         .input-group-prepend
             .input-group-text Your Name
-        input#name.form-control(type="text", name="name", required="")
+        input#name.form-control(type="text", name="name", value="익명의 신입생!", disabled)
     label.sr-only(for="message") Message
     .input-group.mb-2.mr-sm-2
         .input-group-prepend
             .input-group-text Message
-        input#message.form-control(type="text", name="message", required="")
+        input#message.form-control(type="text", name="message", placeholder="질문을 입력하세요",required="")
     button.btn.btn-primary.mb-2(type="submit") Post to Guestbook
