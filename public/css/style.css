@@ -3,6 +3,13 @@ body {
   background: #f8f9fa;
 }
 
+img {
+  width: 80px; 
+  height: 80px; 
+  display: inline; 
+  float: right;
+  margin: 0px 5px 20px 0px;
+}
 .container {
   margin-top: 50px;
   background: white;
@@ -37,7 +44,7 @@ h1 {
   margin-bottom: 2rem;
   max-width: 1140px;
   margin: auto;
-  padding-bottom: 16px;
+  padding-bottom: 5px;
   position: relative;
 }
 
